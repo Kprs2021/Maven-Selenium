@@ -25,6 +25,8 @@ public class ExtentReport {
 		test.pass("Test Passed");
 		driver.quit();
 		extendReports.flush();
+		
+		
 
 	}
 
