@@ -23,6 +23,7 @@ public class ExtentReport {
 		driver.findElement(By.name("q")).sendKeys("Whats up Duck!");
 		driver.findElement(By.name("q")).submit();
 		test.pass("Test Passed");
+		system.out.prntln("Success");
 		driver.quit();
 		extendReports.flush();
 
